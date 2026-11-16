@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ffffff'><path d='M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050505" />
+    <title>Sony WH-1000XM6 — Silence, Perfected.</title>
+    <meta name="description" content="Cinematic scrollytelling reveal for Sony WH-1000XM6 flagship wireless noise-cancelling headphones." />
+    <!-- Fonts from chay1504/my-resume: Outfit, Space Grotesk, Syne -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --black-deep: #050505;
+        --black: #0a0a0a;
+        --gray-900: #121212;
+        --gray-800: #1a1a1a;
+        --gray-700: #2a2a2a;
+        --gray-600: #3a3a3a;
+        --gray-500: #5a5a5a;
+        --gray-400: #8a8a8a;
+        --gray-300: #aaaaaa;
+        --gray-200: #d0d0d0;
+        --white: #ffffff;
+        --font-primary: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+        --font-display: 'Syne', sans-serif;
+        --font-mono: 'Space Grotesk', monospace;
+      }
+      body {
+        background-color: #050505;
+        color: #ffffff;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: var(--font-primary);
+      }
+      /* Selection */
+      ::selection {
+        background: #ffffff;
+        color: #050505;
+      }
+      /* Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #050505;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--gray-700);
+        border-radius: 9999px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--gray-500);
+      }
+    </style>
+  </head>
+  <body class="bg-[#050505] text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
